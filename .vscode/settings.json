@@ -1,0 +1,18 @@
+{
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "editor.formatOnSave": true,
+  "pylint.args": ["--rcfile=setup.cfg"],
+  "flake8.args": ["--config=setup.cfg"],
+  "files.exclude": {
+      "/*.pyc": true,
+      "/*pycache": true,
+      "/*.ipynb_checkpoints": true,
+      ".venv/*": true
+  },
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "ms-python.python": ".venv/bin/python",
+  "python.testing.pytestEnabled": true,
+  "files.watcherExclude": {
+      "/target": true
+  }
+}
